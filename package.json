@@ -1,0 +1,7 @@
+{
+  "name": "sticky-tech-demos",
+  "private": true,
+  "workspaces": [
+    "apps/*"
+  ]
+}
