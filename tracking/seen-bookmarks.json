@@ -1,4 +1,21 @@
 {
-  "proposed": [],
-  "built": []
+  "proposed": [
+    {
+      "id": "agent-reach",
+      "title": "Agent Reach",
+      "url": "https://github.com/Panniantong/Agent-Reach",
+      "date": "2026-09-18",
+      "source": "manual"
+    }
+  ],
+  "built": [
+    {
+      "id": "agent-reach",
+      "title": "Agent Reach",
+      "url": "https://github.com/Panniantong/Agent-Reach",
+      "date": "2026-09-18",
+      "source": "manual",
+      "slug": "agent-reach"
+    }
+  ]
 }

@@ -1,0 +1,11 @@
+{
+  "name": "agent-reach-demo",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "bun run src/server.ts"
+  },
+  "devDependencies": {
+    "@types/bun": "^1.2.0"
+  }
+}

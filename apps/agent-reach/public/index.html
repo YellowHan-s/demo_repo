@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Agent Reach · Channel Explorer</title>
+  <link rel="stylesheet" href="/styles.css" />
+</head>
+<body>
+  <header class="hero">
+    <div class="hero-inner">
+      <div class="eyebrow">👁️ 单用户 MVP 演示</div>
+      <h1>Agent Reach <span class="accent">Channel Explorer</span></h1>
+      <p class="lede">
+        <a href="https://github.com/Panniantong/Agent-Reach" target="_blank" rel="noopener"><strong>Agent Reach</strong></a>
+        是一个 MIT 开源的<strong>能力层（capability layer）</strong>：它替 AI Agent
+        <em>选型、安装、体检、路由</em>各平台最稳的上游 CLI，让 Agent 能读取和搜索整个互联网。
+        它不是托管 API，也不是读取包装层——装好之后，Agent 直接调用上游工具
+        （Jina Reader、gh、yt-dlp、feedparser、Exa……）。
+        <code>agent-reach doctor</code> 一条命令告诉你每个渠道当前走哪个后端。
+      </p>
+      <div class="hero-links">
+        <a class="btn" href="https://github.com/Panniantong/Agent-Reach" target="_blank" rel="noopener">上游仓库 ↗</a>
+        <a class="btn ghost" href="#playground">试试零配置读网页 ↓</a>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section id="channels" class="section">
+      <h2>支持的平台</h2>
+      <p class="section-note">
+        每个平台 = <strong>首选 + 备选</strong>的有序后端列表。徽章标注了零配置还是需要登录态。
+      </p>
+      <div class="channel-grid" id="channel-grid" aria-live="polite">加载中…</div>
+    </section>
+
+    <section id="playground" class="section">
+      <h2>🧪 在线试玩：Jina Reader 读任意网页</h2>
+      <p class="section-note">
+        Agent Reach 的「网页」渠道零配置走 <strong>Jina Reader</strong>
+        （<code>curl https://r.jina.ai/&lt;url&gt;</code>）。下面是同一条路径的真实调用
+        （由本地 Bun 服务器代理以避免 CORS）：
+      </p>
+      <form id="read-form" class="playground-form">
+        <input type="url" id="read-url" placeholder="https://example.com" required
+               value="https://example.com" />
+        <button type="submit" id="read-btn">读取</button>
+      </form>
+      <pre class="cmd-echo" id="read-cmd">$ curl https://r.jina.ai/https://example.com</pre>
+      <div id="read-output" class="output" hidden></div>
+    </section>
+
+    <section id="github-playground" class="section">
+      <h2>🧪 在线试玩：GitHub 公开仓库摘要</h2>
+      <p class="section-note">
+        GitHub 渠道「装好即用」：公开仓库无需登录（对应 <code>gh repo view owner/repo</code>）。
+        这里用公开 GitHub API（无 Token）演示同一故事：
+      </p>
+      <form id="gh-form" class="playground-form">
+        <input type="text" id="gh-repo" placeholder="owner/repo" required
+               value="Panniantong/Agent-Reach" pattern="[\w.-]+/[\w.-]+" />
+        <button type="submit" id="gh-btn">查询</button>
+      </form>
+      <div id="gh-output" class="output" hidden></div>
+    </section>
+
+    <section id="doctor" class="section">
+      <h2>🩺 doctor 面板</h2>
+      <p class="section-note">
+        <span class="badge illustrative">示意数据</span>
+        根据上游文档整理的 <code>agent-reach doctor</code> 输出示例——展示每个渠道按序探测后端、
+        第一个完整可用的当选。本演示未安装真实的 Agent Reach 系统栈。
+      </p>
+      <div class="doctor-panel" id="doctor-panel">加载中…</div>
+    </section>
+  </main>
+
+  <footer>
+    <p>
+      演示应用 · 数据整理自
+      <a href="https://github.com/Panniantong/Agent-Reach" target="_blank" rel="noopener">Panniantong/Agent-Reach</a>
+      README（MIT）· Bun.serve + 原生 HTML/JS，零 npm 依赖
+    </p>
+  </footer>
+
+  <script src="/app.js"></script>
+</body>
+</html>
