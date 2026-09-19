@@ -1,7 +1,11 @@
+import { join } from "path";
+import { fileURLToPath } from "url";
+
 import { channels, doctorMock } from "./channels";
 
 const PORT = Number(process.env.PORT ?? 3000);
-const PUBLIC_DIR = new URL("../public/", import.meta.url).pathname;
+// fileURLToPath (instead of URL.pathname) keeps Windows paths valid: /C:/... would break Bun.file.
+const PUBLIC_DIR = fileURLToPath(new URL("../public/", import.meta.url));
 
 function json(data: unknown, status = 200): Response {
   return new Response(JSON.stringify(data), {
@@ -88,7 +92,7 @@ const server = Bun.serve({
     }
 
     const filePath = path === "/" ? "index.html" : path.slice(1);
-    const file = Bun.file(PUBLIC_DIR + filePath);
+    const file = Bun.file(join(PUBLIC_DIR, filePath));
     if (await file.exists()) return new Response(file);
     return new Response("Not Found", { status: 404 });
   },
