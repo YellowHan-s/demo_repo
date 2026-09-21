@@ -6,6 +6,13 @@
       "url": "https://github.com/Panniantong/Agent-Reach",
       "date": "2026-09-18",
       "source": "manual"
+    },
+    {
+      "id": "json-render",
+      "title": "json-render",
+      "url": "https://github.com/vercel-labs/json-render",
+      "date": "2026-09-21",
+      "source": "github-trending"
     }
   ],
   "built": [
