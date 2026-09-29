@@ -6,6 +6,13 @@
       "url": "https://github.com/Panniantong/Agent-Reach",
       "date": "2026-09-18",
       "source": "manual"
+    },
+    {
+      "id": "microllm-lab",
+      "title": "MicroLLM Lab",
+      "url": "https://stateofutopia.com/experiments/microllmlab/",
+      "date": "2026-09-29",
+      "source": "hacker-news"
     }
   ],
   "built": [
