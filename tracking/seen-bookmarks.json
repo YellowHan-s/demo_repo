@@ -48,6 +48,20 @@
       "url": "https://github.com/paperclipai/paperclip",
       "date": "2026-09-28",
       "source": "github-trending"
+    },
+    {
+      "id": "microllm-lab",
+      "title": "MicroLLM Lab",
+      "url": "https://stateofutopia.com/experiments/microllmlab/",
+      "date": "2026-09-29",
+      "source": "hacker-news"
+    },
+    {
+      "id": "pageindex",
+      "title": "VectifyAI/PageIndex",
+      "url": "https://github.com/VectifyAI/PageIndex",
+      "date": "2026-09-30",
+      "source": "github-trending"
     }
   ],
   "built": [
