@@ -69,6 +69,13 @@
       "url": "https://github.com/heygen-com/hyperframes",
       "date": "2026-10-01",
       "source": "github-trending"
+    },
+    {
+      "id": "clef",
+      "title": "Clef (Cloudflare decision models)",
+      "url": "https://blog.cloudflare.com/clef-decision-models/",
+      "date": "2026-10-02",
+      "source": "hacker-news"
     }
   ],
   "built": [
