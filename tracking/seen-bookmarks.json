@@ -76,6 +76,13 @@
       "url": "https://blog.cloudflare.com/clef-decision-models/",
       "date": "2026-10-02",
       "source": "hacker-news"
+    },
+    {
+      "id": "impeccable",
+      "title": "pbakaus/impeccable",
+      "url": "https://github.com/pbakaus/impeccable",
+      "date": "2026-10-05",
+      "source": "github-trending"
     }
   ],
   "built": [
