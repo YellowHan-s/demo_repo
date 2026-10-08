@@ -97,6 +97,13 @@
       "url": "https://blog.google/innovation-and-ai/technology/developers-tools/embeddinggemma-2/",
       "date": "2026-10-07",
       "source": "hacker-news"
+    },
+    {
+      "id": "jpeg-xl",
+      "title": "JPEG XL in Chrome (Chrome 155 ships .jxl decoding)",
+      "url": "https://developer.chrome.com/blog/jpeg-xl-in-chrome",
+      "date": "2026-10-08",
+      "source": "hacker-news"
     }
   ],
   "built": [
