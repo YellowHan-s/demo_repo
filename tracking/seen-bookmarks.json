@@ -6,6 +6,104 @@
       "url": "https://github.com/Panniantong/Agent-Reach",
       "date": "2026-09-18",
       "source": "manual"
+    },
+    {
+      "id": "json-render",
+      "title": "vercel-labs/json-render",
+      "url": "https://github.com/vercel-labs/json-render",
+      "date": "2026-09-21",
+      "source": "github-trending"
+    },
+    {
+      "id": "thinking-orbs",
+      "title": "Jakubantalik/thinking-orbs",
+      "url": "https://github.com/Jakubantalik/thinking-orbs",
+      "date": "2026-09-22",
+      "source": "github-trending"
+    },
+    {
+      "id": "univer",
+      "title": "dream-num/univer",
+      "url": "https://github.com/dream-num/univer",
+      "date": "2026-09-23",
+      "source": "github-trending"
+    },
+    {
+      "id": "agent-native",
+      "title": "BuilderIO/agent-native",
+      "url": "https://github.com/BuilderIO/agent-native",
+      "date": "2026-09-24",
+      "source": "github-trending"
+    },
+    {
+      "id": "hindsight",
+      "title": "vectorize-io/hindsight",
+      "url": "https://github.com/vectorize-io/hindsight",
+      "date": "2026-09-25",
+      "source": "github-trending"
+    },
+    {
+      "id": "paperclip",
+      "title": "paperclipai/paperclip",
+      "url": "https://github.com/paperclipai/paperclip",
+      "date": "2026-09-28",
+      "source": "github-trending"
+    },
+    {
+      "id": "microllm-lab",
+      "title": "MicroLLM Lab",
+      "url": "https://stateofutopia.com/experiments/microllmlab/",
+      "date": "2026-09-29",
+      "source": "hacker-news"
+    },
+    {
+      "id": "pageindex",
+      "title": "VectifyAI/PageIndex",
+      "url": "https://github.com/VectifyAI/PageIndex",
+      "date": "2026-09-30",
+      "source": "github-trending"
+    },
+    {
+      "id": "hyperframes",
+      "title": "heygen-com/hyperframes",
+      "url": "https://github.com/heygen-com/hyperframes",
+      "date": "2026-10-01",
+      "source": "github-trending"
+    },
+    {
+      "id": "clef",
+      "title": "Clef (Cloudflare decision models)",
+      "url": "https://blog.cloudflare.com/clef-decision-models/",
+      "date": "2026-10-02",
+      "source": "hacker-news"
+    },
+    {
+      "id": "impeccable",
+      "title": "pbakaus/impeccable",
+      "url": "https://github.com/pbakaus/impeccable",
+      "date": "2026-10-05",
+      "source": "github-trending"
+    },
+    {
+      "id": "e2e",
+      "title": "tester-army/e2e",
+      "url": "https://github.com/tester-army/e2e",
+      "date": "2026-10-06",
+      "source": "github-trending"
+    },
+    {
+      "id": "embeddinggemma-2",
+      "title": "EmbeddingGemma 2 (Google open multimodal embedding model)",
+      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/embeddinggemma-2/",
+      "date": "2026-10-07",
+      "source": "hacker-news"
+    },
+    {
+      "id": "jpeg-xl",
+      "title": "JPEG XL in Chrome (Chrome 155 ships .jxl decoding)",
+      "url": "https://developer.chrome.com/blog/jpeg-xl-in-chrome",
+      "date": "2026-10-08",
+      "source": "hacker-news"
     }
   ],
   "built": [
