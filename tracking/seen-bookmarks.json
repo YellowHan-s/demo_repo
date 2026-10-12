@@ -104,6 +104,13 @@
       "url": "https://developer.chrome.com/blog/jpeg-xl-in-chrome",
       "date": "2026-10-08",
       "source": "hacker-news"
+    },
+    {
+      "id": "gods-eye-view",
+      "title": "bilawalsidhu/gods-eye-view",
+      "url": "https://github.com/bilawalsidhu/gods-eye-view",
+      "date": "2026-10-12",
+      "source": "github-trending"
     }
   ],
   "built": [
