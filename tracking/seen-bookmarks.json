@@ -132,6 +132,13 @@
       "url": "https://github.com/KilledByAPixel/LittleJS",
       "date": "2026-10-15",
       "source": "hacker-news"
+    },
+    {
+      "id": "caveman",
+      "title": "JuliusBrussee/caveman",
+      "url": "https://github.com/JuliusBrussee/caveman",
+      "date": "2026-10-16",
+      "source": "github-trending"
     }
   ],
   "built": [
