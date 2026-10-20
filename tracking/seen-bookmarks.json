@@ -146,6 +146,13 @@
       "url": "https://github.com/thesysdev/openui",
       "date": "2026-10-19",
       "source": "github-trending"
+    },
+    {
+      "id": "timestral",
+      "title": "mistralai/timestral (Timestral — Mistral time-series foundation models)",
+      "url": "https://github.com/mistralai/timestral",
+      "date": "2026-10-20",
+      "source": "hacker-news"
     }
   ],
   "built": [
