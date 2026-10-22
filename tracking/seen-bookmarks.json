@@ -160,6 +160,13 @@
       "url": "https://github.com/Graphify-Labs/graphify",
       "date": "2026-10-21",
       "source": "github-trending"
+    },
+    {
+      "id": "duckdb",
+      "title": "duckdb/duckdb (DuckDB 2.0.0 LTS — Cinnamon Teal)",
+      "url": "https://github.com/duckdb/duckdb",
+      "date": "2026-10-22",
+      "source": "hacker-news"
     }
   ],
   "built": [
