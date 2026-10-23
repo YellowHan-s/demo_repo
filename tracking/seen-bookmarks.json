@@ -167,6 +167,13 @@
       "url": "https://github.com/duckdb/duckdb",
       "date": "2026-10-22",
       "source": "hacker-news"
+    },
+    {
+      "id": "earstrip",
+      "title": "GLMap/earstrip (fast polygon triangulator — earcut rival, WASM)",
+      "url": "https://github.com/GLMap/earstrip",
+      "date": "2026-10-23",
+      "source": "hacker-news"
     }
   ],
   "built": [
