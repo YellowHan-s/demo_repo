@@ -181,6 +181,13 @@
       "url": "https://github.com/Renhuai123/ziwei-doushu",
       "date": "2026-10-26",
       "source": "github-trending"
+    },
+    {
+      "id": "paperpilot",
+      "title": "KrushnaVardhanReddy/PaperPilot (Zero-Cloud Pure-Rust PDF engine — WASM + MCP)",
+      "url": "https://github.com/KrushnaVardhanReddy/PaperPilot",
+      "date": "2026-10-27",
+      "source": "hacker-news"
     }
   ],
   "built": [
