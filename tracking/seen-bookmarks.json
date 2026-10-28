@@ -125,6 +125,76 @@
       "url": "https://github.com/debpalash/VoiceStudio",
       "date": "2026-10-14",
       "source": "github-trending"
+    },
+    {
+      "id": "littlejs",
+      "title": "KilledByAPixel/LittleJS",
+      "url": "https://github.com/KilledByAPixel/LittleJS",
+      "date": "2026-10-15",
+      "source": "hacker-news"
+    },
+    {
+      "id": "caveman",
+      "title": "JuliusBrussee/caveman",
+      "url": "https://github.com/JuliusBrussee/caveman",
+      "date": "2026-10-16",
+      "source": "github-trending"
+    },
+    {
+      "id": "openui",
+      "title": "thesysdev/openui",
+      "url": "https://github.com/thesysdev/openui",
+      "date": "2026-10-19",
+      "source": "github-trending"
+    },
+    {
+      "id": "timestral",
+      "title": "mistralai/timestral (Timestral — Mistral time-series foundation models)",
+      "url": "https://github.com/mistralai/timestral",
+      "date": "2026-10-20",
+      "source": "hacker-news"
+    },
+    {
+      "id": "graphify",
+      "title": "Graphify-Labs/graphify",
+      "url": "https://github.com/Graphify-Labs/graphify",
+      "date": "2026-10-21",
+      "source": "github-trending"
+    },
+    {
+      "id": "duckdb",
+      "title": "duckdb/duckdb (DuckDB 2.0.0 LTS — Cinnamon Teal)",
+      "url": "https://github.com/duckdb/duckdb",
+      "date": "2026-10-22",
+      "source": "hacker-news"
+    },
+    {
+      "id": "earstrip",
+      "title": "GLMap/earstrip (fast polygon triangulator — earcut rival, WASM)",
+      "url": "https://github.com/GLMap/earstrip",
+      "date": "2026-10-23",
+      "source": "hacker-news"
+    },
+    {
+      "id": "ziwei-doushu",
+      "title": "Renhuai123/ziwei-doushu (紫微斗数开源排盘引擎)",
+      "url": "https://github.com/Renhuai123/ziwei-doushu",
+      "date": "2026-10-26",
+      "source": "github-trending"
+    },
+    {
+      "id": "paperpilot",
+      "title": "KrushnaVardhanReddy/PaperPilot (Zero-Cloud Pure-Rust PDF engine — WASM + MCP)",
+      "url": "https://github.com/KrushnaVardhanReddy/PaperPilot",
+      "date": "2026-10-27",
+      "source": "hacker-news"
+    },
+    {
+      "id": "stykanimate",
+      "title": "filippocalippo/StykAnimate-App (free open-source stick-figure animator — browser + desktop, Pivot/Stick Nodes import)",
+      "url": "https://github.com/filippocalippo/StykAnimate-App",
+      "date": "2026-10-28",
+      "source": "github-trending"
     }
   ],
   "built": [
